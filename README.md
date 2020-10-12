@@ -1,2 +1,2 @@
 # wasm-go
-frontend in wasm and backend in go
+fullstack in go.. wasm for frontend
