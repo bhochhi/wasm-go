@@ -16,7 +16,7 @@ func main() {
 	//host api
 	api := router.Group("/api")
 	{
-		api.GET("/", func(c *gin.Context) {
+		api.GET("/ping", func(c *gin.Context) {
 			c.JSON(http.StatusOK, gin.H{
 				"ping": "pong",
 			})
